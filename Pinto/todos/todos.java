@@ -610,8 +610,7 @@ public class todos {
                     } else {
                         calcularInt = 0; 
                     }
-
-                        
+                    
                     System.out.println("\nResultados:");
                     System.out.println("Candidato 1: " + numero1 + " votos");
                     System.out.println("Candidato 2: " + numero2 + " votos");
