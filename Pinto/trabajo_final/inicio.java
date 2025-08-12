@@ -32,12 +32,6 @@ public static Scanner teclado = new Scanner(System.in);
                 case 4:
                     procesos.instructor();
                     break;
-                case 5:
-                    
-                    break;
-                case 6:
-                    
-                    break;
                 case 7:
                     System.out.println("Gracias por usar el sistema.");
                     break;
@@ -47,4 +41,5 @@ public static Scanner teclado = new Scanner(System.in);
         }
         teclado.close();
     }
+
 }
