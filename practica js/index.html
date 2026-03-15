@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <div class="menu">
+
+        <a href="#Mostrar texto">Mostrar texto</a>
+        <a href="#calculadora">Suma</a>
+        <a href="#color">cambiar color</a>
+        <a href="#contador">Contador</a>
+        <a href="#lista">Lista</a>
+        <a href="#formulario">Formulario</a>
+        <a href="#calculadoraBasica">calculadora</a>
+
+    </div>
+
+    <div id="Mostrar texto" class="Ejercicios">
+
+        <h2 class="Titulo">Mostrar texto en pantalla</h2>
+
+        <button id="btnMensaje">Mostrar mensaje</button>
+
+        <p id="resultado"></p>
+
+    </div>
+
+    <div id="calculadora" class="Ejercicios">
+
+        <h2 class="Titulo">Calculadora de suma</h2>
+        
+        <input  type="number" id="num1" placeholder="numero 1">
+        <input  type="number" id="num2" placeholder="numero 2">
+        
+        <button id="total">Sumar</button>
+
+        <p id="resultado2"></p>
+
+    </div>
+
+    <div id="color" class="Ejercicios">
+
+        <h2 class="Titulo">Cambiar color de fondo</h2>
+        <button id="rojo">Rojo</button>
+        <button id="azul">Azul</button>
+        <button id="verde">Verde</button>
+        <button id="blanco">Reiniciar</button>
+        
+    </div>
+    <div id="contador" class="Ejercicios">
+
+        <h2 class="Titulo">Contador de clics</h2>
+
+        <button id="btonContador">Haz click</button>
+        <button id="btnReiniciar">Reiniciar</button>
+        <p id="resultado3">Clics : 0</p>
+        
+    </div>
+
+    <div id="lista" class="Ejercicios">
+
+        <h2 class="Titulo">Lista dinamica</h2>
+
+        <h2>Lista de tareas</h2>
+
+        <input type="text" id="tarea" placeholder="Escribir tarea">
+        <button id="btnAgregar">Agregar</button>
+
+        <ul id="lista"></ul>
+        
+    </div>
+
+    <div id="formulario" class="Ejercicios">
+
+        <form id="formulario">
+
+            <h2 class="Titulo">Validación de formulario</h2>
+
+            <input type="text" id="nombre" placeholder="Nombre">
+            <br><br>
+
+            <input type="email" id="correo" placeholder="Correo">
+            <br><br>
+
+            <input type="number" id="edad" placeholder="Edad">
+            <br><br>
+
+            <button id="btnenviar" type="submit">Enviar</button>
+
+            <p id="mensaje"></p>
+
+        </form>
+
+    </div>
+
+    <div id="calculadoraBasica" class="Ejercicios">
+
+        <h2 class="Titulo">Calcualdora basica</h2>
+
+        <input type="number" id="numero1" placeholder="Número 1">
+        <br><br>
+
+        <input type="number" id="numero2" placeholder="Número 2">
+        <br><br>
+
+        <select id="operacion">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+        </select>
+
+        <br><br>
+
+        <button id="calcular">Calcular</button>
+
+        <p id="resultadoCalc"></p>
+        
+    </div>
+
+
+    <div id="temporizador" class="Ejercicios">
+
+        <h2 class="Titulo">Temporizador</h2>
+        
+        <p id="tiempo">0</p>
+
+        <button id="iniciar">Iniciar</button>
+        <button id="detener">Detener</button>
+        <button id="reiniciar">Reiniciar</button>
+
+
+    </div>
+
+    <script src="js/scrip.js"></script>
+</body>
+</html>
