@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <div class="menu">
+
+        <a href="index.html">Banco</a>
+        <a href="Inventario.html">Inventario</a>
+        <a href="Colegio.html">Colegio</a>
+        <a href="Carrito.html">Carrito</a>
+        <a href="Biblioteca.html">Biblioteca</a>
+        <a href="Carros.html">Carro</a>
+    </div>
+
+    <div id="Banco" class="Ejercicios">
+
+        <h2>Sistema de biblioteca</h2>
+
+        <label>Título del libro</label>
+        <input type="text" id="titulo" placeholder="Ej: Cien años de soledad">
+
+        <label>Autor</label>
+        <input type="text" id="autor" placeholder="Ej: Gabriel García Márquez">
+
+        <div class="botones">
+        <button id="btnRegistrar">Registrar libro</button>
+        <button id="btnPrestar">Prestar libro</button>
+        <button id="btnDevolver">Devolver libro</button>
+        <button id="btnConsultar">Consultar libro</button>
+        </div>
+
+        <p id="resultadoLibro"></p>
+
+        <h2>Lista de libros</h2>
+        <ul id="listaLibros"></ul>
+
+
+    </div>
+
+    <script src="js/Bilioteca.js"></script>
+</body>
+</html>

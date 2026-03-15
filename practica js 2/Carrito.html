@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <div class="menu">
+
+        <a href="index.html">Banco</a>
+        <a href="Inventario.html">Inventario</a>
+        <a href="Colegio.html">Colegio</a>
+        <a href="Carrito.html">Carrito</a>
+        <a href="Biblioteca.html">Biblioteca</a>
+        <a href="Carros.html">Carro</a>
+    
+    </div>
+
+    <div id="Banco" class="Ejercicios">
+
+        <h2>Carrito de compras en una tienda en línea</h2>
+        <label>Producto</label>
+        <input type="text" id="producto" placeholder="Nombre del producto">
+
+        <label>Precio</label>
+        <input type="number" id="precio" placeholder="Precio">
+
+        <button id="btnAgregar">Agregar al carrito</button>
+
+        <h2>Productos en el carrito</h2>
+        <ul id="listaCarrito"></ul>
+
+        <h3>Total: $<span id="total">0</span></h3>
+
+    </div>
+
+    <script src="js/Carrito.js"></script>
+</body>
+</html>

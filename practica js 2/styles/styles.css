@@ -1,0 +1,103 @@
+body{
+font-family: Helvetica;
+display: flex;
+font-size: 20px;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    text-align: center;
+}
+
+.menu a{
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+
+.Ejercicios{
+background: white;
+padding: 30px;
+border-radius: 10px;
+width: 50%;
+text-align: center;
+}
+
+input{
+width: 100%;
+padding: 10px;
+border-radius: 5px;
+border: 1px solid #ccc;
+font-size: 16px;
+font-family: Helvetica;
+}
+
+button{
+padding: 10px 15px;
+margin: 5px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+#btnIngresar{
+background: #28a745;
+color: white;
+}
+
+#btnRetirar{
+background: #dc3545;
+color: white;
+}
+
+#btnConsultar{
+background: #007bff;
+color: white;
+}
+#btnRegistrar{
+    background: #28a745;
+    color: white;
+}
+#btnAgregar{
+ background: #28a745;
+color: white;   
+}
+#btnDevolver{
+    background: #dc3545;
+    color: white;
+}
+#btnPrestar{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+}
+#btnRegistrarVehiculo{
+background: #28a745;
+color: white;  
+}
+#btnAcelerar{
+background: #007bff;
+color: white;
+}
+#btnFrenar{
+    background: #dc3545;
+    color: white;
+}
+#btnConsultarVehiculo{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+}
+
+ul{
+text-align: left;
+margin-top: 15px;
+}

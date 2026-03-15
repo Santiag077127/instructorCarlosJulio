@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colegio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <div class="menu">
+
+        <a href="index.html">Banco</a>
+        <a href="Inventario.html">Inventario</a>
+        <a href="Colegio.html">Colegio</a>
+        <a href="Carrito.html">Carrito</a>
+        <a href="Biblioteca.html">Biblioteca</a>
+        <a href="Carros.html">Carro</a>
+
+    </div>
+
+    <div id="Banco" class="Ejercicios">
+
+        <h2>Registro de estudiantes</h2>
+
+        <label>Nombre del estudiante</label>
+        <input type="text" id="nombreEstudiante" placeholder="Ingrese nombre">
+
+        <label>Programa</label>
+        <input type="text" id="programa" placeholder="Ej: ADSO">
+
+        <label>Nota final</label>
+        <input type="number" id="nota" placeholder="Ej: 4.0">
+
+        <div class="botones">
+        <button id="btnRegistrar">Registrar estudiante</button>
+        <button id="btnConsultar">Consultar estudiante</button>
+        </div>
+
+        <p id="resultadoEstudiante"></p>
+
+        <h2>Lista de estudiantes</h2>
+        <ul id="listaEstudiantes"></ul>
+
+    </div>
+
+    <script src="js/Colegio.js"></script>
+</body>
+</html>

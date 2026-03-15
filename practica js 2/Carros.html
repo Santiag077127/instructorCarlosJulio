@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carro</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <div class="menu">
+
+        <a href="index.html">Banco</a>
+        <a href="Inventario.html">Inventario</a>
+        <a href="Colegio.html">Colegio</a>
+        <a href="Carrito.html">Carrito</a>
+        <a href="Biblioteca.html">Biblioteca</a>
+        <a href="Carros.html">Carro</a>
+    
+    </div>
+
+    <div id="Banco" class="Ejercicios">
+        <h2>Control de Vehículos</h2>
+        <label>Nombre o placa del vehículo</label>
+        <input type="text" id="vehiculo" placeholder="Ej: Bus01">
+
+        <label>Cambio de velocidad</label>
+        <input type="number" id="velocidad" placeholder="Ej: 10">
+
+        <button id="btnRegistrarVehiculo">Registrar vehículo</button>
+        <button id="btnAcelerar">Aumentar velocidad</button>
+        <button id="btnFrenar">Disminuir velocidad</button>
+        <button id="btnConsultarVehiculo">Consultar estado</button>
+
+        <p id="resultadoVehiculo"></p>
+
+        <h2>Lista de vehículos</h2>
+        <ul id="listaVehiculos"></ul>
+    </div>
+    
+
+    <script src="js/Carros.js"></script>
+</body>
+</html>

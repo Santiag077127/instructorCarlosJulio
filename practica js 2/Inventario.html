@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <div class="menu">
+
+        <a href="index.html">Banco</a>
+        <a href="Inventario.html">Inventario</a>
+        <a href="Colegio.html">Colegio</a>
+        <a href="Carrito.html">Carrito</a>
+        <a href="Biblioteca.html">Biblioteca</a>
+        <a href="Carros.html">Carro</a>
+    
+    </div>
+
+    <div class="Ejercicios">
+        
+        <h1>Inventario de una tienda</h1>
+
+        <label>Nombre del producto</label>
+        <input type="text" id="nombreProducto" placeholder="Nombre del producto: ">
+
+        <label>Precio</label>
+        <input type="number" id="precioProducto" placeholder=Precio de producto:">
+
+        <label>Cantidad</label>
+        <input type="number" id="cantidadProducto" placeholder="Cantidad: ">
+
+        <div class="botones">
+        <button id="btnRegistrar">Registrar producto</button>
+        <button id="btnConsultar">Consultar producto</button>
+        <button id="btnTotal">Valor total inventario</button>
+        </div>
+
+        <p id="resultadoInventario"></p>
+
+        <h2>Lista de productos:</h2>
+        <ul id="listaProductos"></ul>
+
+
+        <script src="js/Inventario.js"></script>
+    </div>
+
+</body>
+</html>
